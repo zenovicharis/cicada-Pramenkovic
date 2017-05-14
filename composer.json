@@ -1,0 +1,25 @@
+{
+    "name": "root/shopwoo-dashboard-app",
+    "description": "Admin Dashboard for Shopwoo",
+    "type": "json",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Haris Zenovic",
+            "email": "zenovicharis@gmail.com"
+        }
+    ],
+    "require": {
+        "grobmeier/cicada": "^0.5.0",
+        "guzzlehttp/guzzle": "^6.2",
+        "twig/twig": "~1.0",
+        "robmorgan/phinx": "^0.8.0",
+        "php-activerecord/php-activerecord": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pramenkovic\\": "src/",
+            "PramenkovicTest\\": "tests/"
+        }
+    }
+}

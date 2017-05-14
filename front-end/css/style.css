@@ -1,0 +1,467 @@
+@font-face {
+    font-family: UbuntuMedium;
+    src: url(../fonts/Ubuntu-M.ttf);
+}
+@font-face {
+    font-family: UbuntuLight;
+    src: url(../fonts/Ubuntu-L.ttf);
+}
+@font-face {
+    font-family: FiraSans;
+    src: url(../fonts/FiraSans/FiraSans-Medium.ttf);
+}
+@font-face {
+    font-family: FiraSansRegular;
+    src: url(../fonts/FiraSans/FiraSans-Regular.ttf);
+}
+@font-face {
+    font-family: FiraSansBold;
+    src: url(../fonts/FiraSans/FiraSans-Bold.ttf);
+}
+.firaFont{
+    font-family: FiraSans !important;
+    font-size:14px;
+}
+*{
+    font-family: UbuntuMedium;
+}
+body{
+    background-color:#F7F8FA;
+}
+p{
+    font-family: UbuntuLight;
+}
+header{
+    width:100%;
+    height: 20%;
+    overflow:visible;
+    position:absolute;
+    top:0;
+    left:0;
+}
+#background{
+    top:0;
+    left:0;
+    width:100%;
+    opacity: .9;
+    position:absolute;
+}
+.navContainer{
+    margin:1% 0;
+    height:80%;
+}
+.logo img{
+    width:auto;
+    height:100%;
+    z-index: 10;
+}
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    margin-top:2%;
+    padding: 0;
+    padding-left:10em;
+}
+.nav ul li {
+    display:inline-block;
+    text-align:center;
+    color:#000;
+    padding:0 15px;
+    
+}
+.nav ul li a{
+    color:#000;
+    text-decoration: none;
+}
+.nav ul li a span img{
+    height:15%;
+}
+#street{
+    position:absolute;
+    top:0;
+    right:0;
+    width:23%;
+}
+/*End of header Section */
+
+.slider{
+    height:100%;
+    width:100%;
+    background: url(../img/photos/2.jpg);
+    background-size: 100% 110%;
+    box-shadow: inset 0 0 3px 2px rgba(123, 123, 123, 0.5);
+}
+
+/* end of slider */
+
+sections{
+    width:100%;
+    height:20%;
+}
+/*.sections div{
+    padding:0;
+}*/
+.sectionContainer{
+    margin-top:-20%;
+    background-color: #f7f8fa;
+    padding:2%;
+    padding-right:0;
+}
+.sectionContainer p{
+    text-align:center;
+    font-family: FiraSansRegular;
+    color: #8a8a8a;
+    font-size:11px;
+}
+.sections{
+    background-color: #f7f8fa;
+}
+.section{
+    padding:0;
+    padding-right:2%;
+    text-align:center;
+}
+.section img{
+    width:100%;
+    height:25%;   
+}
+.hidden{
+    position:relative;
+    top:0;
+    height:15%;
+    background-color:#000;
+    display:block !important;
+    box-shadow: 6px -4px 38px -88px rgba(123, 123, 123, 0.5), 1px -32px 14px 3px rgba(123, 123, 123, 0.5);
+}
+.learnMore{
+    border-top:.5pt solid #919191;
+    color:#919191;
+    text-decoration: none;
+}
+.learnMore:hover{
+    border-top:.5pt solid #0093d0;
+    text-decoration: none;
+    color:#0093d0;
+}
+/*end of service section*/
+article{
+    height:70%;
+    background-color:#fff;
+    margin: 5px 0;
+    box-shadow: 0 0 4px 2px rgba(211, 211, 211, 0.5);
+}
+.about{
+    overflow:hidden;
+}
+article div{
+    padding:0;
+}
+.truck{
+    height:100%;
+    padding:0;
+}
+.truck img{
+    height:100%;
+}
+.skrewX{
+    -ms-transform: skewX(-15deg); /* IE 9 */
+    -webkit-transform: skewX(-15deg); /* Safari */
+    transform: skewX(-15deg);
+    height:100%;
+    padding: 5% 0;
+    background-color:#fff;
+    overflow: hidden;
+}
+.unskrewX{
+    padding:0 20%;
+    -ms-transform: skewX(15deg); /* IE 9 */
+    -webkit-transform: skewX(15deg); /* Safari */
+    transform: skewX(15deg);
+}
+.unskrewX h2{
+    font-family: FiraSansBold;
+    color:#0093d0;
+    font-size:25px;
+    margin-bottom: 7%;
+}
+.unskrewX div{
+    padding:0;
+}
+.icoSection{
+    margin-top:3%;
+}
+.ico img{
+    width:100%;
+    height:auto;
+    display:block;
+    margin:auto;
+}
+.icoText{
+    padding-left:5% !important;
+}
+.icoText h4{
+    margin-top:0;
+    font-size: 17px;
+}
+.icoText p{
+    font-family: FiraSansRegular;
+    color:#8a8a8a;
+    font-size:12px;
+}
+/*End of what we offer section*/
+.preMainSection{
+    background-color:#F7F8FA;
+}
+main{
+    height: 180%;
+    background-image: url(../img/preFooter.png);
+    background-color: #F7F8FA;
+    background-position: bottom center;
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+}
+.qualityContainer{
+    text-align: center;
+    padding:2% 0;
+}
+.qualityText{
+    padding:2% 0;
+}
+.quality{
+    float:none;
+    margin:auto;
+}
+.quality ul{
+    list-style-type: none;
+    padding: 0;
+    display:block;
+    margin:auto;
+}
+.quality ul li {
+    display:inline-table;
+    vertical-align: middle;
+}
+
+.quality ul li img {
+    display: table-cell;
+    vertical-align: middle;
+    color: #000;
+    text-align: center;
+    padding: 0px 20px;
+
+    text-decoration: none;
+}
+.dots{
+    vertical-align: top !important;
+}
+.dots img{
+    margin-top:1.3em;
+    
+}
+/*end of qualites section*/
+
+aside{
+    background: repeating-linear-gradient( -75deg, #035786, #035786 5px, #1c97c8 2px, #035786 6px );
+
+    width:100%;
+    height:85%;
+}
+aside div{
+    padding:0 !important;
+}
+.boutUs{
+    background-color: #fff;
+    transform:skewX(-15deg);
+}
+.boutUsText{
+    transform:skewX(15deg);
+    background-color:#fff;
+    padding-top:5% !important;
+    padding-bottom:5% !important;
+    padding-left:17.8em !important;
+    width:90%;
+}
+.boutUsText h1{
+    font-family: FiraSansBold;
+    color: #0093d0;
+    font-size: 25px;
+}
+.boutUsText p{
+    font-family: FiraSansRegular;
+    color: #8a8a8a;
+    font-size: 12px;
+}
+.bedge{
+    display:table;
+}
+.bedge img{
+    display: block;
+    margin:auto;
+    margin-top:5em;
+}
+
+.gallery{
+    margin-top:10%;
+    height:65%;
+    overflow-y: hidden;
+    background-color:#F7F8FA;
+}
+.mainPhoto{
+    padding:3px !important;
+}
+.mainPhoto img{
+    width:100%;
+    height:100%;
+}
+.lilPic img{
+    width:100%;
+    height:auto;
+}
+.littlePics{
+    height:100%;
+    overflow-y:scroll;
+    padding:3px !important;
+    -webkit-mask-image: -webkit-gradient(linear, 147 194,147 405, from(rgba(0,0,0,1)), to(rgba(247,248,250,0)));    
+}
+.littlePics::-webkit-scrollbar {
+    width: .2em;
+}
+.headerLine{
+    margin-top:2%;
+    width: 70%;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(44, 48, 53, 0.79), rgba(44, 48, 53, 0));
+}
+.headlight h1{
+    font-family: FiraSansBold;
+    color: #0093d0;
+    font-size: 25px;   
+}
+.headlight p{
+    font-family: FiraSansRegular;
+    color: #8a8a8a;
+    font-size: 12px; 
+}
+.littlePics::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.littlePics::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 133, 240, 0.79);
+  outline: 1px solid slategrey;
+}
+/* End of gallery and about us */
+.projects{
+    margin-top:12em;
+    height:20%;
+}
+.projects > .container{
+    margin:0;
+    padding:0;
+}
+.projectsInner>div{
+    padding:0;
+    padding-left: .5em;
+}
+.latestProjs{
+    height:100%;
+}
+.projectsInner{
+    padding:0;
+    width:100%;
+}
+.headlight{
+    text-align:center;
+    margin:5% 0;
+}
+.video{
+    overflow:hidden;
+    padding:0;
+    height:100%;
+}
+.video img{
+    width:100%;
+}
+.projectsContainer{
+    padding-right:0;
+}
+.projectSingle img{
+    width:100%;
+    height:100%;
+}
+.projectSingle:last-child img{
+    margin-top:1em;
+}
+.projectSingle h4{
+    margin-top:0;
+    font-size:14px;
+}
+.projectSingle , .projectSingle > .col-sm-7{
+    padding-right:0;
+}
+.projectSingle{
+    height:50%;
+}
+.projectSingle p{
+    font-size:12px;
+}
+/*End of our lates projects*/
+footer{
+    height:36%;
+}
+.footerHolder{
+    margin-left:0;
+    margin-right:0;
+    width:100%;
+}
+.footerHolder .row{
+    margin-left:0;
+    margin-right:0;
+}
+footer div{
+    padding:0 !important;
+    background:url(../img/footer.png);
+}
+.footerContainer{
+    padding:3% 5% !important;
+}
+.logoFooter img{
+    height:40%;
+    display:block;
+    margin:auto;
+}
+.listUnit h4{
+    margin-top:0;
+    color:#fff;
+    font-size: 13px;
+}
+.listUnit ul{
+    list-style-type: none;
+    padding:0 !important;
+}
+.listUnit ul li{
+    line-height: 30px;
+}
+.listUnit ul li a{
+    text-decoration: none;
+    color:#acaeb0;
+    font-size:11px;
+    color: #acaeb0;
+}
+.icoFooter img{
+    height:7%;
+}
+.lines{
+    margin-top:5%;
+    width:70%;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 133, 240, 0.79), rgba(44, 48, 53, 0));
+}
+.copyRights p{
+    background-color:#28313a;
+    margin-bottom:0;
+    color: #acaeb0;
+    text-align: center;
+    font-size:10px;
+    padding:.5% 0;
+}
