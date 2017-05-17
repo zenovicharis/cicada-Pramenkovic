@@ -1,0 +1,35 @@
+nav{
+    display:none;
+}
+@media screen and (max-width: 900px){
+    header{
+        display:none;
+    }
+    nav{
+        display:block;
+    }
+    .desktop-container{
+        display:none;
+    }
+    .footerContainer{
+        display:none;
+    }
+    .mobile-version-footer{
+        display:block;
+    }
+    .icoFooter img{
+        width:5%;
+    }
+    footer{
+        height:auto !important;
+    }
+    .mobile-container-responsive{
+        overflow: hidden;
+    }
+    nav{
+        display:block;
+    }
+    .mobile-container-responsive{
+        display:block;
+    }
+}

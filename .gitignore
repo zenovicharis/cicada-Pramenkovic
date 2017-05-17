@@ -1,5 +1,5 @@
 /vendor
-/front-end/img
-/front-end/fonts
-/front-end/pics
-/front-end/svg
+/front-end/resources/img
+/front-end/resources/fonts
+/front-end/resources/pics
+/front-end/resources/svg
