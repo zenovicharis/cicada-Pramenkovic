@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="198px" viewBox="0 0 1024 198" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>Header pozadina</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#EDEDED" offset="0%"></stop>
+            <stop stop-color="#D5D5D5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.904209422">
+        <g id="RP-Website" fill="url(#linearGradient-1)">
+            <g id="Header-+-Slajder">
+                <path d="M1004.92847,1.50990331e-14 L1024,59.3178334 C1024,59.3178334 143.047597,25.0512595 3.5971226e-14,198 L4.26325641e-13,-3.55271368e-15 L1004.92847,0 Z" id="Header-pozadina"></path>
+            </g>
+        </g>
+    </g>
+</svg>

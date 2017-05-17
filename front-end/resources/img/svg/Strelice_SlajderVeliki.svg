@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.1 (29687) - http://www.bohemiancoding.com/sketch -->
+    <title>Strelice_SlajderVeliki</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="32" height="32"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="32" height="32" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="RP-Website" transform="translate(-992.000000, -300.000000)">
+            <g id="Slajder">
+                <g id="Strelice_SlajderVeliki" transform="translate(992.000000, 300.000000)">
+                    <g id="Group">
+                        <use id="Rectangle-7" stroke="#FFFFFF" mask="url(#mask-2)" stroke-width="1.5" fill="#596971" opacity="0.497259795" xlink:href="#path-1"></use>
+                        <polygon id="Page-1" fill="#FEFEFE" points="13.8929416 8 12 9.86794418 18.2141169 16 12 22.1303895 13.8929416 24 22 16"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
