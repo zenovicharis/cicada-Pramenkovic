@@ -116,6 +116,26 @@ nav{
     display:block;
     margin:auto;
 }
+.menu{
+    display:none;
+}
+.menu ul{
+    padding:0;
+}
+.menu ul li{
+    list-style: none;
+    text-align: center;
+}
+.menu ul li a{
+    display:block;
+    text-decoration: none;
+    color:#0093D0;
+    padding: 2% 0;
+}
+.menu ul li a:hover{
+    background-color: #0093d0;
+    color:#fff;
+}
 .line{
     float: left;
     height: 4px;
@@ -378,6 +398,7 @@ aside div{
     font-family: FiraSansRegular;
     color: #8a8a8a;
     font-size: 12px;
+    text-align: left;
 }
 .info-contact-form{
     width:30%;
@@ -601,13 +622,16 @@ footer div{
     padding:0 !important;
 }
 .listUnit ul li{
-    line-height: 30px;
+    line-height: 37px;
 }
 .listUnit ul li a{
     text-decoration: none;
     color:#acaeb0;
     font-size:11px;
     color: #acaeb0;
+}
+.listUnit ul li a span{
+    padding-left:15%;
 }
 .icoFooter img{
     height:7%;

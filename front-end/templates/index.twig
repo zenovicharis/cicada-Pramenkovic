@@ -284,7 +284,7 @@
                     <div class="col-sm-8 col-sm-offset-2 gallery">
                         <div class="col-sm-6">
                             <div class="col-sm-12 mainPhoto">
-                                <div id="carousel-example-generic-gallery" class="carousel slide" data-ride="carousel">
+                                <div id="carousel-example-generic-gallery" class="carousel slide" data-ride="carousel" data-interval="false">
 
                                     <!-- Wrapper for slides -->
                                     <div class="carousel-inner" role="listbox">
@@ -609,7 +609,7 @@
                 </div>
                 <div class=" col-xs-12 gallery-mobile">
                     <div class="main-block-gallery">
-                        <div id="carousel-example-generic-gallery-mobile" class="carousel slide" data-ride="carousel">
+                        <div id="carousel-example-generic-gallery-mobile" class="carousel slide" data-ride="carousel" data-interval="false">
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
@@ -686,7 +686,7 @@
                     </div>
                 </div>
                 <div class="col-xs-12 projects-container">
-                    <h3>Unsere Projecte</h3>
+                    <h3 style="color:#0093D0">Unsere Projecte</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     <div class="col-xs-12 block-projects">
                         <iframe width="100%" height="auto" src="https://www.youtube.com/embed/dQyMB3-zuT0" frameborder="0" allowfullscreen></iframe>
@@ -706,8 +706,9 @@
         </div>
         {# moblie section end #}
         {% include 'shared/footer.twig' %}
-        <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="/front-end/resources/js/jquery-1.11.3.min.js" ></script>
+        <script src="/front-end/resources/js/jquery.swipable.min.js" ></script>
+        <script src="/front-end/resources/js/bootstrap.min.js"></script>
         <script src="/front-end/resources/js/script.js"></script>
     </body>
 </html>
