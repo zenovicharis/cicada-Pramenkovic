@@ -814,6 +814,7 @@ footer div{
 }
 .logo-mobile-container img{
     width:100%;
+    margin: 35% 0;
 }
 nav{
     display:none;

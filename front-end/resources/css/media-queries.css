@@ -16,9 +16,10 @@ nav{
     }
     .mobile-version-footer{
         display:block;
+        padding: 6% !important;
     }
     .icoFooter img{
-        width:5%;
+        width: 14%;
     }
     footer{
         height:auto !important;
