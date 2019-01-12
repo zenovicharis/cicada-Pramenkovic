@@ -808,8 +808,8 @@ footer div{
 .projects-container{
     margin:10% 0;
 }
-.projects-container h3,p{
-    text-align: center;
+.projects-container h3,p {
+    /* text-align: left; */
 }
 .block-projects{
     margin:2% 0;

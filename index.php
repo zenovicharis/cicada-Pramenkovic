@@ -5,7 +5,7 @@ require "vendor/autoload.php";
 use Pramenkovic\Application;
 use Pramenkovic\Controllers\MainController;
 use Symfony\Component\HttpFoundation\Request;
-
+// die('heel');    
 // function getProtocol()
 // {
 //     $isSecure = false;
